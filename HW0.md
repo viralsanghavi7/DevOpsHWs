@@ -1,4 +1,4 @@
-![Git exercise screenshot](git_excercise.png)
+Git Excercise
 
 * Level 1: Introduction to git commits
 	* Taks 1  
@@ -27,11 +27,11 @@
 	* Taks 1
 	
 		    1. git checkout C4  
-	* Taks 2  
+	* Taks 2 
 	
 	    	1. git checkout bugFix^
 	* Taks 3
-	  
+	
 		 	1. git branch -f master C6	 	
 			2. git checkout C1
 			3. git branch -f bugFix HEAD~1
@@ -40,8 +40,15 @@
 			1. git reset HEAD~1
 			2. git checkout pushed
 			3. git revert HEAD
+
+Screenshot
+![Git exercise screenshot](Git_excercise_screenshot.png)
+
 			
 Hooks script: post-commit
 
 	#!/bin/sh     
 	start http://google.com 
+
+Hooks Excercise Gif
+![Hooks excercise](Hooks.gif)
